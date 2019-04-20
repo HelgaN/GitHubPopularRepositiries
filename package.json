@@ -1,0 +1,47 @@
+{
+  "name": "GitHubApp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App Github Stars",
+  "scripts": {
+    "eslint": "eslint js/",
+    "build": "gulp build",
+    "start": "gulp serve"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "6.7.7",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "babel-register": "6.26.0",
+    "browser-sync": "2.18.8",
+    "css-mqpacker": "6.0.0",
+    "del": "^2.2.2",
+    "eslint": "4.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.0",
+    "gulp-better-rollup": "3.3.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "3.2.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "2.6.4"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs",
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "dependencies": {
+    "natives": "^1.1.6"
+  }
+}
