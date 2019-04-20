@@ -58,7 +58,7 @@ body {
 }
 
 .jumbotron {
-  min-height: 100vh;
+  min-height: 1000px;
   background-color: #fff;
   background-image: url("./../img/preloader.gif");
   background-size: 150px;
